@@ -1,7 +1,7 @@
 
 function ProjectCarousel(){
     return (
-        <div class="container-sm">
+        <div class="container">
         <div class="d-flex justify-content-center">
                 <div class="w-25">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -20,7 +20,7 @@ function ProjectCarousel(){
                                     <h5>The Basement Game</h5>
                                     <p>Some representative placeholder content for the first slide.</p>
                                 </div>
-                                <img src="https://i.imgur.com/E4i2pz5.jpeg" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/sJyra3n.png" class="d-block w-100" alt="..."/>
 
                             </div>
                             
