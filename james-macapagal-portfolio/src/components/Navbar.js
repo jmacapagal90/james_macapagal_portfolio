@@ -8,7 +8,6 @@ function Navbar(){
     return(
         
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -19,7 +18,7 @@ function Navbar(){
                             <a class={location.pathname == "/" ? "nav-link active" : "nav-link"} aria-current="page" href="/">home</a>
                         </li>
                         <li class="nav-item">
-                            <a class={location.pathname == "/about" ? "nav-link active" : "nav-link"} href="/about">about</a>
+                            <a class={location.pathname == "/about" ? "nav-link active" : "nav-link"} href="/about">contact</a>
                         </li>
                         <li class="nav-item">
                             <a class={location.pathname == "/projects" ? "nav-link active" : "nav-link"} href="/projects">projects</a>
@@ -27,12 +26,8 @@ function Navbar(){
                         <li class="nav-item">
                             <a class={location.pathname == "/blogs" ? "nav-link active" : "nav-link"} href="/blogs">blogs</a>
                         </li>
-                        <li class="nav-item">
-                            <a class={location.pathname == "/contact" ? "nav-link active" : "nav-link"} href="/contact">contact</a>
-                        </li>
                     </ul>
                 </div>
-            </div>
         </nav>
     )
 }

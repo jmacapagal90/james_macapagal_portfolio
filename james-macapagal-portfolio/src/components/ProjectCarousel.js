@@ -3,7 +3,7 @@ function ProjectCarousel(){
     return (
         <div class="container">
         <div class="d-flex justify-content-center">
-                <div class="w-25">
+                <div class="w-75">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                         <h1>My Work</h1>
                             <div class="carousel-indicators">
@@ -16,37 +16,21 @@ function ProjectCarousel(){
                         <div class="carousel-inner">
 
                             <div class="carousel-item active">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <h5>The Basement Game</h5>
-                                    <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                                <img src="https://i.imgur.com/sJyra3n.png" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/UVpCyRy.png" class="d-block w-100" alt="..."/>
 
                             </div>
                             
                             <div class="carousel-item">
-                                <div class="carousel-caption d-none d-md-block">
-                                        <h5>Beer Buddy</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                                <img src="https://i.imgur.com/5g8nfxq.jpeg" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/pmJrmfG.png" class="d-block w-100" alt="..."/>
 
                             </div>
                             <div class="carousel-item">
-                                <div class="carousel-caption d-none d-md-block">
-                                        <h5>Game Squad</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                                <img src="https://i.imgur.com/5g8nfxq.jpeg" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/0d1mgWT.png" class="d-block w-100" alt="..."/>
 
                             </div>
 
                             <div class="carousel-item">
-                                <div class="carousel-caption d-none d-md-block">
-                                        <h5>Zoo Guide</h5>
-                                        <p>Some representative placeholder content for the first slide.</p>
-                                </div>
-                                <img src="https://i.imgur.com/5g8nfxq.jpeg" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/2mlo1ed.png" class="d-block w-100" alt="..."/>
 
                             </div>
 
