@@ -17,14 +17,16 @@ function Navbar(){
                         <li class="nav-item">
                             <a class={location.pathname == "/" ? "nav-link active" : "nav-link"} aria-current="page" href="/">home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class={location.pathname == "/about" ? "nav-link active" : "nav-link"} href="/about">contact</a>
-                        </li>
+
                         <li class="nav-item">
                             <a class={location.pathname == "/projects" ? "nav-link active" : "nav-link"} href="/projects">projects</a>
                         </li>
                         <li class="nav-item">
                             <a class={location.pathname == "/blogs" ? "nav-link active" : "nav-link"} href="/blogs">blogs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class={location.pathname == "/about" ? "nav-link active" : "nav-link"} href="/about">contact</a>
                         </li>
                     </ul>
                 </div>

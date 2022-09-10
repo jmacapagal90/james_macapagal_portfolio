@@ -3,14 +3,13 @@
 function Blogs(){
     return(
         <div class="container-fluid">
-            <div class="w-100">
+            <div class="w-auto">
                 <div class="position-relative">
                         <div class="position-absolute top-0 start-50 translate-middle-x">
-                        <div class="container-fluid">
                             <h1>My Writings</h1>
                                 <div class="row row-cols-1 row-cols-md-1 g-4">
                                     <div class="col">
-                                        <div class="card" style={{width: '50rem'}}>
+                                        <div class="card" style={{width: 'auto'}}>
                                             <div class="card-body">
                                                 <h5 class="card-title">How to Seed Your Rails API with an External API</h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">Guide to external seeding</h6>
@@ -20,7 +19,7 @@ function Blogs(){
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <div class="card" style={{width: '50rem'}}>
+                                        <div class="card" style={{width: 'auto'}}>
                                             <div class="card-body">
                                                 <h5 class="card-title">You Down with O-O-P?</h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">puts "Yeah You Know Me"</h6>
@@ -30,7 +29,7 @@ function Blogs(){
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <div class="card" style={{width: '50rem'}}>
+                                        <div class="card" style={{width: 'auto'}}>
                                             <div class="card-body">
                                                         <h5 class="card-title">The Gitfather, Part 2: The Prequel</h5>
                                                 <h6 class="card-subtitle mb-2 text-muted">Just when I thought I was out...</h6>
@@ -40,7 +39,7 @@ function Blogs(){
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <div class="card" style={{width: '50rem'}}>
+                                        <div class="card" style={{width: 'auto'}}>
                                             <div class="card-body">
                                                     <h5 class="card-title">useState: The Hook Brings You Back</h5>
                                                     <h6 class="card-subtitle mb-2 text-muted">Guide to the useState</h6>
@@ -51,7 +50,7 @@ function Blogs(){
                                         </div>
                                     </div>
                                     <div class="col">
-                                        <div class="card" style={{width: '50rem'}}>
+                                        <div class="card" style={{width: 'auto'}}>
                                             <div class="card-body">
                                                     <h5 class="card-title">Advice From A Gitfather: Lessons on Version Control</h5>
                                                     <h6 class="card-subtitle mb-2 text-muted">Or how I learned to love Git and embrace the Git..</h6>
@@ -60,7 +59,6 @@ function Blogs(){
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                         </div>
                     </div>
                 </div>
