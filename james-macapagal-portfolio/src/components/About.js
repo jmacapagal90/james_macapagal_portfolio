@@ -24,6 +24,7 @@ I strongly believe that my years of experience working as a Business Analyst enh
                             <a target="_blank" href="https://www.linkedin.com/in/jamesmacapagal/">LinkedIn</a>
                     </li>
                     <li class="list-group-item">
+                        <i class="bi bi-github"></i>
                             <a target="_blank" href="https://github.com/jmacapagal90">Github</a>
                             </li>
                     <li class="list-group-item">
