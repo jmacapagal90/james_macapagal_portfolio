@@ -5,7 +5,7 @@ function About(){
         <div class="container">
             <h1>About Me</h1>
             <div class="container-sm">
-                <img src="https://i.imgur.com/T3vXh7N.jpg" alt="profile-pic" class="w-25"/>
+                <img src="https://i.imgur.com/T3vXh7N.jpg" alt="profile-pic" class="w-25 rounded-4"/>
             </div>
             <br></br>
             <p class="lead">I’m a former Business Analyst with 5+ years working within Product Delivery teams and delivering on project deliverables along Agile methodology.

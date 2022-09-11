@@ -2,6 +2,7 @@
 function ProjectCarousel(){
     return (
         <div class="container">
+            <h1>Preview My Work:</h1>
         <div class="d-flex justify-content-center">
                 <div class="w-75">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -15,21 +16,21 @@ function ProjectCarousel(){
                         <div class="carousel-inner">
 
                             <div class="carousel-item active">
-                                <img src="https://i.imgur.com/UVpCyRy.png" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/UVpCyRy.png" class="d-block w-100 rounded-4" alt="..."/>
 
                             </div>
                             
                             <div class="carousel-item">
-                                <img src="https://i.imgur.com/pmJrmfG.png" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/pmJrmfG.png" class="d-block w-100 rounded-4" alt="..."/>
 
                             </div>
                             <div class="carousel-item">
-                                <img src="https://i.imgur.com/0d1mgWT.png" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/0d1mgWT.png" class="d-block w-100 rounded-4" alt="..."/>
 
                             </div>
 
                             <div class="carousel-item">
-                                <img src="https://i.imgur.com/2mlo1ed.png" class="d-block w-100" alt="..."/>
+                                <img src="https://i.imgur.com/2mlo1ed.png" class="d-block w-100 rounded-4" alt="..."/>
 
                             </div>
 
