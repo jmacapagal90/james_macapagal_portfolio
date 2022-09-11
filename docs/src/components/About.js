@@ -12,7 +12,7 @@ function About(){
 
 After a fruitful career as a Business Analyst, I decided to transition toward a career as a Software Engineer.
 
-I’m currently completing Flatiron School’s Full-Time Software Engineering Bootcamp. I’ve completed over 45+ hours a week of study time and completed 4 group projects, developing full-stack applications, utilizing my knowledge of JavaScript, React, SQL, and Ruby. 
+A recent graduate of Flatiron School’s Full-Time Software Engineering Bootcamp, I’ve completed over 45+ hours a week of study time and completed 4 group projects, developing full-stack applications, utilizing my knowledge of JavaScript, React, SQL, and Ruby. 
 
 I’m a creative person at heart- ask me about improv comedy!- which is what led me to change my career from “facilitator of technology” to “creator of technology.”
 
