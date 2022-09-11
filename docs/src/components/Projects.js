@@ -10,7 +10,7 @@ function Projects(){
                         <div class="row row-cols-1 g-4">
                             <div class="col">
                                 <div class="card" style={{width: 'auto'}}>
-                                    <img src="https://i.imgur.com/UVpCyRy.png" class="card-img-top" alt="..."/>
+                                    <img src="https://i.imgur.com/UVpCyRy.png" class="card-img-top rounded-4" alt="..."/>
                                     <div class="card-body">
                                         <h5 class="card-title">The Basement Game</h5>
                                         <p class="card-text">A text-based, choose-your-own-adventure style game where a user tries to escape from a nefarious basement by answering (and surviving) a series of Yes/No questions.</p>
@@ -21,7 +21,7 @@ function Projects(){
                             </div>
                             <div class="col">
                                 <div class="card" style={{width: 'auto'}}>
-                                    <img src="https://i.imgur.com/pmJrmfG.png" class="card-img-top" alt="..."/>
+                                    <img src="https://i.imgur.com/pmJrmfG.png" class="card-img-top rounded-4" alt="..."/>
                                     <div class="card-body">
                                         <h5 class="card-title">Beer Buddy</h5>
                                         <p class="card-text">Beer Buddy is a SPA that allows users to search through beers and update tabs with different beer order</p>
@@ -32,7 +32,7 @@ function Projects(){
                             </div>
                             <div class="col">
                                 <div class="card" style={{width: 'auto'}}>
-                                <img src="https://i.imgur.com/0d1mgWT.png" class="card-img-top" alt="..."/>
+                                <img src="https://i.imgur.com/0d1mgWT.png" class="card-img-top rounded-4" alt="..."/>
                                 <div class="card-body">
                                     <h5 class="card-title">GameSquad</h5>
                                     <p class="card-text">A SPA where users can browse, rate, and create review games.</p>
@@ -43,7 +43,7 @@ function Projects(){
                         </div>
                         <div class="col">
                             <div class="card" style={{width: 'auto'}}>
-                                <img src="https://i.imgur.com/2mlo1ed.png" class="card-img-top" alt="..."/>
+                                <img src="https://i.imgur.com/2mlo1ed.png" class="card-img-top rounded-4" alt="..."/>
                                 <div class="card-body">
                                     <h5 class="card-title">Zoo Guide</h5>
                                     <p class="card-text">Zoo Guide is a SPA for browsing various exhibits and animals at your local zoo!</p>
