@@ -1,5 +1,5 @@
 # My Professional Portfolio
-- https://www.jamesmacapagal.com/)
+- https://www.jamesmacapagal.com/
 
 ## Table of Contents
 * [General Info](#general-information)
