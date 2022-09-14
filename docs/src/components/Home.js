@@ -14,7 +14,7 @@ function Home(){
             <a href="/projects" class="btn btn-primary btn-lg m-1" >Projects</a>
             <a href="/blogs" class="btn btn-secondary btn-lg m-1" >Blogs</a>
             <a href="/contact" class="btn btn-info btn-lg m-1" >Contact</a>
-            <a href="https://drive.google.com/file/d/1Skr6KMNuuaz3Hbd7NcrPfDDVjzVzFNqb/view?usp=sharing" target="_blank" class="btn btn-dark btn-lg m-1" >Resume</a>
+            <a href="https://docs.google.com/document/d/1I_pZNsYvH0QjxPerzahE5xoL-7mEf9LQiJyMhxPObwg/export?format=pdf" target="_blank" class="btn btn-dark btn-lg m-1" >Resume</a>
             <ProjectCarousel />
         </div>
 
