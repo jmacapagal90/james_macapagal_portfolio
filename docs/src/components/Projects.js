@@ -5,7 +5,7 @@ function Projects(){
         <div class="container-fluid">
             <div class="w-100">
             <div class="position-relative">
-                <div class="position-absolute top-0 start-50 translate-middle-x">
+                <div class="position-relative top-0 start-50 translate-middle-x">
                     <h1>My Projects</h1>
                         <div class="row row-cols-1 g-4">
                             <div class="col">
