@@ -8,9 +8,10 @@ function Home(){
                         <div id="jumbotron" >
                             <div class="p-5 mb-4 bg-transparent text-bg-dark" >
                                 <div class="text-end">
-                                        <h1 class="display-6 fw-bold">james macapagal</h1>
+                                        <h1 class="display-6 fw-bold">James Macapagal</h1>
                                         <p class="col-md-14 fs-4">software engineer</p>
                                 </div>
+                                
                             </div>
                         </div>
                 </div>

@@ -2,7 +2,7 @@
 
 function About(){
     return(
-        <div class="container">
+        <div class="container-fluid">
             <h1>About Me</h1>
             <div class="container-sm">
                 <img src="https://i.imgur.com/T3vXh7N.jpg" alt="profile-pic" class="w-25 rounded-4"/>
@@ -37,6 +37,8 @@ function About(){
                     </li>
                 </ul>
             </div>
+
+            
         </div>
     )
 }

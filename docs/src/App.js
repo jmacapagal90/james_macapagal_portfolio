@@ -11,19 +11,18 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <header>
+      <div class="container-medium">
         <Navbar />
-      </header>   
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/blogs" element={<Blogs />} />
-      </Routes>
-      <br></br>
-      <footer>
-        <Footer />
-        </footer>
+      </div>
+        <div class="d-flex flex-column min-vh-100">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/contact" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/blogs" element={<Blogs />} />
+          </Routes>
+        </div>
+      <Footer />
     </div>
   );
 }
