@@ -2,9 +2,9 @@
 function ProjectCarousel(){
     return (
         <div class="container-fluid">
-        <h1>Preview My Work:</h1>
+        <h1>My Work:</h1>
             <div class="d-flex justify-content-center">
-                    <div class="w-75">
+                    <div class="w-100">
                         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
                                 <div class="carousel-indicators">
                                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>

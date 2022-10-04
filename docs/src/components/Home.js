@@ -8,22 +8,26 @@ function Home(){
                         <div id="jumbotron" >
                             <div class="p-5 mb-4 bg-transparent text-bg-dark" >
                                 <div class="text-end">
-                                        <h1 class="display-6 fw-bold">James Macapagal</h1>
-                                        <p class="col-md-14 fs-4">software engineer</p>
+                                    <div id="title-message">
+                                        <h1 class="display-6">James Macapagal <br></br>Software Engineer</h1>
+                                    </div>
                                 </div>
                                 
                             </div>
                         </div>
                 </div>
             </div>
-            <div>
-                <a href="/projects" class="btn btn-primary btn-lg m-1" >Projects</a>
-                <a href="/blogs" class="btn btn-secondary btn-lg m-1" >Blogs</a>
-                <a href="/contact" class="btn btn-info btn-lg m-1" >Contact</a>
-                <a href="https://docs.google.com/document/d/1I_pZNsYvH0QjxPerzahE5xoL-7mEf9LQiJyMhxPObwg/export?format=pdf" target="_blank" class="btn btn-dark btn-lg m-1" >Resume</a>
-                
+            <br></br>
+            <div class="btn-group" role="group">
+                <a href="/projects" class="btn btn-outline-secondary btn-lg" >Projects</a>
+                <a href="/blogs" class="btn btn-outline-secondary btn-lg" >Blogs</a>
+                <a href="/contact" class="btn btn-outline-secondary btn-lg" >Contact</a>
+                <a href="https://docs.google.com/document/d/1I_pZNsYvH0QjxPerzahE5xoL-7mEf9LQiJyMhxPObwg/export?format=pdf" target="_blank" class="btn btn-outline-secondary btn-lg" >Resume</a>
             </div>
+            <br></br>
             <ProjectCarousel />
+            <br></br>
+
         </div>
 
     )
