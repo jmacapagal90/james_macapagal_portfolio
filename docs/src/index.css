@@ -16,7 +16,7 @@ code {
 #title-message {
   position: absolute;
   bottom: 0;
-  right: 0
+  right: 10px
 }
 
 #jumbotron {
@@ -29,5 +29,4 @@ code {
   position: relative;
   white-space: normal;
 }
-
 
