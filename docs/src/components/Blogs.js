@@ -1,12 +1,12 @@
 
 
 function Blogs(){
-    return(
+    return (
         <div class="container-fluid">
+            <h1>My Writings</h1>
             <div class="w-auto">
                 <div class="position-relative">
                         <div class="position-relative top-0 start-50 translate-middle-x">
-                            <h1>My Writings</h1>
                                 <div class="row row-cols-1 row-cols-md-1 g-4">
                                     <div class="col">
                                         <div class="card" style={{width: 'auto'}}>
