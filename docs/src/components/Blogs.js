@@ -21,26 +21,19 @@ function Blogs(){
             description={blog.description} 
             likes={blog.public_reactions_count}
             comments={blog.comments_count}
-            publish_date={blog.readable_publish_date}
-            reading_time={blog.reading_time}
-            tags={blog.tags}
+            publish_date={blog.published_at}
+            reading_time={blog.reading_time_minutes}
+            tags={blog.tag_list}
+            cover_img={blog.social_image}
             />
         )
     })
 
     return (
-        <div class="container-fluid">
-            <h1>My Blogs</h1>
-            <div class="w-auto">
-                <div class="position-relative">
-                        <div class="position-relative top-0 start-50 translate-middle-x">
-                                <div class="row row-cols-1 row-cols-md-1 g-4">
-                                <div class="col">
-                                 {showBlogs}
-                                </div>
-                                </div>
-                        </div>
-                </div>
+        <div class="container">
+            <h1>My Blogs</h1>  
+            <div class="row">
+                    {showBlogs}
             </div>
         </div>
     )

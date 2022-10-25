@@ -8,22 +8,31 @@ function BlogCard({
         comments,
         publish_date,
         reading_time,
-        tags
+        tags,
+        cover_img
     }){
 
-        console.log(title)
+     const publishDate = new Date(publish_date)
+
 
     return (
-        <div class="card" style={{width: 'auto'}}>
-            <div class="card-body">
-                <h5 class="card-title">{title}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Guide to external seeding</h6>
-                <p class="card-text">As part of Phase 4 of Flatiron School's Software Engineering bootcamp, we are tasked with building a full-stack application, including standing up an API with Rails to communicate with a React client application...</p>
-                <a target="_blank" href="https://dev.to/jmacapagal90/how-to-seed-your-rails-api-with-an-external-api-4h8n" class="card-link">Read More</a>
+        <div class="col">
+            <div class="card" style={{width: '20rem'}}>
+                <img class="card-img-top" src={cover_img} alt={title} />
+                <div class="card-body">
+                    <h5 class="card-title"><strong>{title}</strong></h5>
+                    <h6 class="card-subtitle mb-2 text-muted"></h6>
+                    <p class="card-subtitle mb-2 text-muted">{reading_time} minute read</p>
+                    <p class="card-text">{description}</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item text-muted">Likes: {likes}, {comments} comments</li>
+                    <li class="list-group-item text-muted"><em>{tags.map((tag)=> `#${tag}, `)}</em></li>
+                </ul>
+                <br></br>
+                <a class="btn btn-primary" target="_blank" href={url}>Read More</a>
             </div>
         </div>
-
-
     )
 }
 
