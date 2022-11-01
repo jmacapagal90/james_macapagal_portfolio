@@ -1,7 +1,7 @@
 
 function ProjectCarousel(){
     return (
-        <div class="container-fluid">
+        <div class="container-md">
         <h1>My Work:</h1>
             <div class="d-flex justify-content-center">
                     <div class="w-100">

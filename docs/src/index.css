@@ -22,9 +22,9 @@ code {
 #jumbotron {
   background-image: url("https://i.imgur.com/clcXniN.jpg");
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 25% 25%;
   background-size: cover;
-  height: 50vw;
+  height: 75vh;
   width: 100vw;
   position: relative;
   white-space: normal;

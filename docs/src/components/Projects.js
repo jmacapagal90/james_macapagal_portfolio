@@ -2,7 +2,7 @@
 
 function Projects(){
     return(
-        <div class="container-fluid">
+        <div class="container-md">
             <div class="w-100">
             <div class="position-relative">
                 <div class="position-relative top-0 start-50 translate-middle-x">
