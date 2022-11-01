@@ -20,9 +20,10 @@ code {
 }
 
 #jumbotron {
-  background-image: url("https://i.imgur.com/clcXniN.jpg");
+  background-image: radial-gradient(rgba(255, 255, 255, 0),#20272bb2),url("https://i.imgur.com/clcXniN.jpg");
+  background-blend-mode: multiply;
   background-repeat: no-repeat;
-  background-position: 25% 25%;
+  background-position: 50% 25%;
   background-size: cover;
   height: 75vh;
   width: 100vw;
