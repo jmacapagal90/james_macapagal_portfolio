@@ -18,7 +18,7 @@ function BlogCard({
 
     return (
         <div class="col">
-            <div class="card" style={{width: '20rem'}}>
+            <div class="card" style={{width: "22rem"}}>
                 <img class="card-img-top" src={cover_img} alt={title} />
                 <div class="card-body">
                     <h5 class="card-title"><strong>{title}</strong></h5>
