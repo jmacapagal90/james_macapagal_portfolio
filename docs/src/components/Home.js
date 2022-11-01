@@ -3,9 +3,9 @@ import ProjectCarousel from "./ProjectCarousel";
 function Home(){
     return (
         <div class="container-py-4">
-            <div class="container-medium">
+            <div class="container-container">
                 <div class="d-flex justify-content-center">
-                        <div id="jumbotron" >
+                        <div id="jumbotron">
                             <div class="p-5 mb-4 bg-transparent text-bg-dark" >
                                 <div class="text-end">
                                     <div id="title-message">
