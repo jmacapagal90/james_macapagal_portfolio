@@ -30,9 +30,9 @@ function Blogs(){
     })
 
     return (
-        <div class="container">
+        <div class="container-fluid">
             <h1>My Blogs</h1>  
-            <div class="row">
+            <div class="row justify-content-center">
                     {showBlogs}
             </div>
         </div>

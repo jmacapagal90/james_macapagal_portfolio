@@ -9,7 +9,7 @@ function Home(){
                             <div class="p-5 mb-4 bg-transparent text-bg-dark" >
                                 <div class="text-end">
                                     <div id="title-message">
-                                        <h1 class="display-5">James Macapagal</h1>
+                                        <h1 class="display-5">james macapagal</h1>
                                         <h2 class="display-7">// software engineer</h2>
                                     </div>
                                 </div>
