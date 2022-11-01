@@ -1,5 +1,5 @@
 # My Professional Portfolio
-- https://www.jamesmacapagal.com/
+- <a href="https://www.jamesmacapagal.com/" target="_blank">Link</a>
 
 ## Table of Contents
 * [General Info](#general-information)
