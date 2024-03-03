@@ -10,7 +10,7 @@ function Home(){
                                 <div class="text-end">
                                     <div id="title-message">
                                         <h1 class="display-5">james macapagal</h1>
-                                        <h2 class="display-7">// software engineer</h2>
+                                        <h2 class="display-7">// actor</h2>
                                     </div>
                                 </div>
                                 
